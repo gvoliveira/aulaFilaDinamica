@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//O aluno deve adicionar no comentÃ¡rio seu nome completo.
 typedef struct sCell{
     int info;
     struct sCell *next;
@@ -11,7 +11,7 @@ typedef struct fila{
     CELULA *fim;
 }FILA;
 
-//na função principal
+//na funÃ§Ã£o principal
 
 void inicializar (FILA* f){
     f->inicio = NULL;
@@ -80,7 +80,7 @@ int main(){
 //    enfileirar(&fi, 2);
 //    imprimeInicio(&fi);
 
-    //CRIAR UM MENU PARA FUNCIONALIDADES E TESTES AVANÇADOS
+    //CRIAR UM MENU PARA FUNCIONALIDADES E TESTES AVANÃ‡ADOS
 
     return 0;
 }
